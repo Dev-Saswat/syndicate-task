@@ -1,0 +1,17 @@
+account_id: '196241772369'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-sbox01/cd4d2856/task01
+expiration: 2025-03-07 11:30:16.757226+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: arn:aws:iam::196241772369:policy/eo_role_boundary
+project_path: C:\Users\saswat_pattnaik\Epam_Training\aws-pratice\aws-lambda-deployment-tasks
+region: eu-central-1
+resources_prefix: cmtr-cd4d2856-
+tags:
+  run_id: JAP-08
+  run_type: stm
+  type: user
+  user_id: cd4d2856
+temp_aws_access_key_id: ASIAS3MHLZ5ITEAPQZAQ
+temp_aws_secret_access_key: BTCg7ff9ASGpX7zsMYL8pZOZBAnghEGzQE18GmM8
+temp_aws_session_token: IQoJb3JpZ2luX2VjEPv//////////wEaCXVzLWVhc3QtMSJHMEUCIQCJN6tukSbjUeRbyi8dZEl9bEYB/MxwW7G/RQ7HYvK8OAIgMaU3lNisDrTHwQHNL0o2t+XbPfVqtaCv2OPUXUZpYaAq2AIIRBABGgwxOTYyNDE3NzIzNjkiDALiWEdGJZaQ2E51PCq1AtiuU/h6tktFDNW9jvfrK/RYTTdminPXsPS9/1Cvvvp8gDWOo/0eP4UcFhAzU+MPZn5okASutwRc0OSv5vAV7wz18xe9F1qM/2/FAGR/7gqDwixz/bhBBB7hQYJggJlHtfx2vC74Uo0j6ArXgP4Fu58i4w2iomfT0e1vWWaGUiurPE8mvHD3UnXaW99PW0D00ktO7BZFzepM/b5gqfPiBSS01srOCjVERqXx4rHKKa8lJfFolcl7rcuJ7aKdHOSZpEK5cNr95Ewl0z+ScT2+OL6lVjaV1yneJ8WR/uYqYGrSlceuga6Z2uzHfRPXP4sVGFWyk0haPNlViVc2mENeNau/NZOIWGK6vIIfzZe3jf6GjRVt8IH0jn8vkoeyjdb1s4rX5M4dDyGfiaWl3NAGQDoGEI0nwTDtmau+BjqdAZZiaaKwsqSEBH1SLqx014VT8rpn1+QLt8Nxl8Kno05EIj+YnwLkugU1cZ9mHZa9NApW3S9heY1BWoEqtJfaliWXQaSXOBUDVzmYGkxme6ycaxPDvdN852/OFbgEuJGD5qfbLgJGpo82bMzDRfmqDeIqGnwaF8FP0iyQaa9Dk+bspJdxFD6CRbWY6MphWxzL7AQQrGgWHqEWgBQrpuo=
+use_temp_creds: false
