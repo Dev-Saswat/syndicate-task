@@ -52,5 +52,14 @@
     ],
     "resource_type": "iam_role",
     "tags": {}
+  },
+  "uuid_generator-jtw4-role": {
+    "predefined_policies": [],
+    "principal_service": "lambda",
+    "custom_policies": [
+      "lambda-basic-execution"
+    ],
+    "resource_type": "iam_role",
+    "tags": {}
   }
 }
