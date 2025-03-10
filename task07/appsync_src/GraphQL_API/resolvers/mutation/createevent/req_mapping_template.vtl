@@ -1,0 +1,24 @@
+## Generate a UUID for the new item
+#set($id = $util.autoId())
+
+## Generate timestamp in ISO8601 format
+#set($createdAt = $util.time.nowISO8601())
+
+## Ensure payLoad is correctly parsed
+#set($parsedPayload = $ctx.args.payLoad)
+#if($util.isString($ctx.args.payLoad))
+  #set($parsedPayload = $util.parseJson($ctx.args.payLoad))
+#end
+
+{
+  "version": "2018-05-29",
+  "operation": "PutItem",
+  "key": {
+    "id": { "S": "$id" }
+  },
+  "attributeValues": {
+    "userId": { "N": "$ctx.args.userId" },
+    "createdAt": { "S": "$createdAt" },
+    "payLoad": { "M": $util.dynamodb.toMapValuesJson($parsedPayload) }
+  }
+}
