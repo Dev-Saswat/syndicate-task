@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "name": "processor",
+  "func_name": "lambdas/processor/index.handler",
+  "resource_type": "lambda",
+  "iam_role_name": "processor-role",
+  "runtime": "nodejs20.x",
+  "memory": 128,
+  "timeout": 100,
+  "lambda_path": "lambdas\\processor",
+  "dependencies": [],
+  "event_sources": [],
+  "env_variables": {
+    "WEATHER_TABLE": "${target_table}"
+  },
+  "tracing_mode": "Active",
+  "publish_version": true,
+  "alias": "${lambdas_alias_name}",
+  "url_config": {
+    "auth_type": "NONE"
+  },
+  "ephemeral_storage": 512,
+  "tags": {}
+}
